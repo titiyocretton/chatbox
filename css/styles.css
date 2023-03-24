@@ -1,0 +1,41 @@
+body {
+  max-width: 320px;
+  margin: auto;
+  color: white;
+  background: #313a39;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.personnage1 {
+  background: #637676;
+  align-self: flex-start;
+}
+
+.personnage2 {
+  background: #c54436;
+}
+
+div {
+  border-radius: 10px;margin: 5px;
+}
+
+.personnage {
+  padding: 5px;
+  max-width: 60%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+header {
+  background: #182321;
+  color: #c54436;
+  padding: 5px;
+}
