@@ -21,7 +21,7 @@ img {
   align-self: flex-end;
 }
 
-div {
+p {
   border-radius: 10px;
   margin: 5px;
 }
@@ -55,11 +55,11 @@ footer {
   max-height: 40px;
 }
 
-header div {
+header p {
   visibility: hidden;
 }
 
-footer div {
+footer p {
   padding: 10px;
   background: #772e25;
   flex-grow: 1;
