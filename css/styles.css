@@ -10,6 +10,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  border-radius: 5px;
 }
 
 .character1 {
@@ -22,15 +23,15 @@ img {
   align-self: flex-end;
 }
 
-p {
-  border-radius: 10px;
-  margin: 5px;
-}
-
 .character {
   padding: 5px;
   max-width: 70%;
   font-size: 20px;
+}
+
+p {
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .container {
@@ -47,9 +48,18 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: sticky;
 }
 
-.petite-image {
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+.small {
   max-height: 20px;
 }
 
@@ -69,4 +79,8 @@ input {
   background: #772e25;
   color: white;
   border-radius: 10px;
+}
+
+span {
+  color: red;
 }
