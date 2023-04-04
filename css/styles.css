@@ -34,14 +34,19 @@ div {
   align-items: flex-start;
 }
 
-header {
+header,
+footer {
   background: #182321;
   color: #c54436;
   padding: 5px;
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .petite-image {
-  max-width: 10%;
+  max-height: 20px;
+}
+
+.profil {
+  max-height: 40px;
 }
