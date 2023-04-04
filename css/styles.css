@@ -41,6 +41,7 @@ footer {
   padding: 5px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .petite-image {
@@ -49,4 +50,8 @@ footer {
 
 .profil {
   max-height: 40px;
+}
+
+header div {
+  visibility: hidden;
 }
