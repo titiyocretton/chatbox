@@ -16,7 +16,9 @@ img {
 
 .character2 {
   background: #c54436;
-  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 div {
