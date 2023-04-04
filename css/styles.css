@@ -10,20 +10,20 @@ img {
   max-width: 100%;
 }
 
-.personnage1 {
+.character1 {
   background: #637676;
-  align-self: flex-start;
 }
 
-.personnage2 {
+.character2 {
   background: #c54436;
+  align-self: flex-end;
 }
 
 div {
   border-radius: 10px;margin: 5px;
 }
 
-.personnage {
+.character {
   padding: 5px;
   max-width: 60%;
 }
@@ -31,7 +31,7 @@ div {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 header {
