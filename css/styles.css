@@ -3,6 +3,7 @@ body {
   margin: auto;
   color: white;
   background: #313a39;
+  font-family: sans-serif;
 }
 
 img {
@@ -12,6 +13,7 @@ img {
 
 .character1 {
   background: #637676;
+  align-self: flex-start;
 }
 
 .character2 {
@@ -20,18 +22,19 @@ img {
 }
 
 div {
-  border-radius: 10px;margin: 5px;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .character {
   padding: 5px;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 header,
@@ -54,4 +57,14 @@ footer {
 
 header div {
   visibility: hidden;
+}
+
+footer div {
+  padding: 10px;
+  background: #772e25;
+  flex-grow: 1;
+}
+
+footer img {
+  margin: 0 10px 0 10px;
 }
